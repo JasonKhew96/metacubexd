@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "format": "prettier -w .",
     "lint": "eslint --fix .",
@@ -81,6 +82,9 @@
     "vite-plugin-pwa": "^1.0.3",
     "vite-plugin-solid": "^2.11.8",
     "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "packageManager": "pnpm@10.17.1",
   "pnpm": {

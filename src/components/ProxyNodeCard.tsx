@@ -78,7 +78,7 @@ export const ProxyNodeCard = (props: {
             )}
             onClick={onClick}
           >
-            <h2 class="card-title line-clamp-1 text-start text-sm break-all">
+            <h2 class="card-title line-clamp-2 h-[2lh] text-start text-sm break-all">
               {proxyName}
             </h2>
 

@@ -264,7 +264,7 @@ export const frontendReleaseAPI = async (
   const githubAPI = useGithubAPI()
 
   const { tag_name, body } = await githubAPI
-    .get(`repos/MetaCubeX/metacubexd/releases/latest`)
+    .get(`repos/JasonKhew96/metacubexd/releases/latest`)
     .json<ReleaseAPIResponse>()
 
   return {
